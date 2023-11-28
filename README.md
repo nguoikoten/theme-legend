@@ -1,4 +1,4 @@
-# THEME - LEGEND 2022 - OPHIM CMS
+# THEME - LEGEND 2022 - chilltv CMS
 
 ## Demo
 ### Trang Chủ
@@ -14,14 +14,14 @@
 ![Alt text](https://i.ibb.co/kSD1W5b/LEGEN-EPISODE.png "Episode Page")
 
 ## Requirements
-https://github.com/hacoidev/ophim-core
+https://github.com/chilltvpack/chilltv-core
 
 ## Install
-1. Tại thư mục của Project: `composer require ophimcms/theme-legend`
+1. Tại thư mục của Project: `composer require chilltvcms/theme-legend`
 2. Kích hoạt giao diện trong Admin Panel
 
 ## Update
-1. Tại thư mục của Project: `composer update ophimcms/theme-legend`
+1. Tại thư mục của Project: `composer update chilltvcms/theme-legend`
 2. Re-Activate giao diện trong Admin Panel
 
 ## Note
@@ -53,5 +53,5 @@ https://github.com/hacoidev/ophim-core
 
 
 ### Custom View Blade
-- File blade gốc trong Package: `/vendor/ophimcms/theme-legend/resources/views/themelegend`
+- File blade gốc trong Package: `/vendor/chilltvcms/theme-legend/resources/views/themelegend`
 - Copy file cần custom đến: `/resources/views/vendor/themes/themelegend`
