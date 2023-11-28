@@ -1,0 +1,32 @@
+{
+    "name": "chilltvcms/theme-legend",
+    "description": "chilltvcms's legend theme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "chilltv.xyz",
+            "email": "hr.anveco@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+        "chilltvpack/chilltv-core": "^1.1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chilltv\\ThemeLegend\\": "src/",
+            "Chilltv\\ThemeLegend\\Database\\Factories\\": "database/factories/",
+            "Chilltv\\ThemeLegend\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chilltv\\ThemeLegend\\ThemeLegendServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
